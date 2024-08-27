@@ -19,7 +19,7 @@ export default function Links(props) {
             </div>
           </Link> */}
           <Link href={portofolio} target='_blank'>
-            <div className='w-full rounded-xl bg-[#181818] dark:bg-slate-200 border-2 border-[#181818] hover:bg-transparent hover:text-[#181818] dark:hover:text-neutral-200 dark:hover:bg-transparent dark:hover:border-neutral-200 px-5 py-4 text-white dark:text-[#232323] space-x-3 flex items-center duration-200' onMouseEnter={() => setHovered("Portofolio")} onMouseLeave={() => setHovered(false)}>
+            <div className='w-full rounded-xl bg-transparent dark:bg-transparent border-2 border-[#181818] dark:border-slate-200 hover:bg-[#181818] hover:text-neutral-200 dark:hover:text-[#181818] dark:hover:bg-slate-200 dark:hover:border-neutral-200 px-5 py-4 text-black dark:text-neutral-200 space-x-3 flex items-center duration-200' onMouseEnter={() => setHovered("Portofolio")} onMouseLeave={() => setHovered(false)}>
               <FontAwesomeIcon icon={faFile} className='text-xl'/>
               <span>
                 Portofolio
@@ -27,8 +27,16 @@ export default function Links(props) {
             </div>
           </Link>
           <Link href={codewars} target='_blank'>
-            <div className='w-full rounded-xl bg-[#16171B] dark:bg-slate-400 border-2 border-[#16171B] hover:bg-transparent hover:text-[#16171B] dark:hover:text-neutral-200 dark:hover:bg-transparent dark:hover:border-neutral-200 px-5 py-4 text-white dark:text-[#232323] space-x-3 flex items-center duration-200' onMouseEnter={() => setHovered("Codewars")} onMouseLeave={() => setHovered(false)}>
+            <div className='w-full rounded-xl bg-transparent dark:bg-transparent border-2 border-[#181818] dark:border-slate-200 hover:bg-[#181818] hover:text-neutral-200 dark:hover:text-[#181818] dark:hover:bg-slate-200 dark:hover:border-neutral-200 px-5 py-4 text-black dark:text-neutral-200 space-x-3 flex items-center duration-200' onMouseEnter={() => setHovered("Codewars")} onMouseLeave={() => setHovered(false)}>
               <img src='https://www.codewars.com/packs/assets/logo.f607a0fb.svg' className='w-6'/>
+              <span>
+                Codewars
+              </span>
+            </div>
+          </Link>
+          <Link href={codewars} target='_blank'>
+            <div className='w-full rounded-xl bg-transparent dark:bg-transparent border-2 border-[#181818] dark:border-slate-200 hover:bg-[#181818] hover:text-neutral-200 dark:hover:text-[#181818] dark:hover:bg-slate-200 dark:hover:border-neutral-200 px-5 py-4 text-black dark:text-neutral-200 space-x-3 flex items-center duration-200' onMouseEnter={() => setHovered("Codewars")} onMouseLeave={() => setHovered(false)}>
+              <img src='/leetcode.png' className='w-6'/>
               <span>
                 Codewars
               </span>

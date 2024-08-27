@@ -19,7 +19,7 @@ export default function LetsConnect() {
                 <FontAwesomeIcon icon={faYoutube} className='text-[#CC0000] hover:text-red-500 duration-200'/>
             </Link>
             <Link href={instagram} onMouseEnter={() => setHovered("Instagram")} onMouseLeave={() => setHovered(false)}>
-                <FontAwesomeIcon icon={faInstagram} className='text-[#181818]'/>
+                <FontAwesomeIcon icon={faInstagram} className='text-[#181818] dark:text-slate-200 hover:text-blue-500 duration-200'/>
             </Link>
             <Link href={discord} onMouseEnter={() => setHovered("Discord")} onMouseLeave={() => setHovered(false)}>
                 <FontAwesomeIcon icon={faDiscord} className='text-[#5964F2] hover:text-blue-300 duration-200'/>
