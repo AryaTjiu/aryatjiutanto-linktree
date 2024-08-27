@@ -1,4 +1,4 @@
-export const portofolio = "https://portofolio-topaz-two.vercel.app/";
+export const portofolio = "https://aryatjiutanto.vercel.app/";
 export const github = "https://github.com/AryaTjiu";
 export const leetcode = "https://leetcode.com/u/aryatjiutanto/";
 export const codewars = "https://www.codewars.com/users/codewithgi";
